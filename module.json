@@ -1,0 +1,30 @@
+{   
+   "name": "fit-for-the-future",   
+   "title": "Cyberpunk RED Fashion",   
+   "description": "Drag and Drop Clothing Items plus image examples taken from Chromebook 4",   
+   "author": "Matt Griffiths",
+   "version": "1.0.0",
+   "minimumCoreVersion": "0.5.0",
+   "compatibleCoreVersion":"0.5.5",
+   "packs": [
+    {
+      "name": "fashion",
+      "label": "Fashion Items",
+      "path": "packs/fashion.db",
+      "entity": "Item",
+      "system": "cyberpunkred",
+      "module": "fit-for-the-future"
+    },
+    {
+      "name": "fashion-plates",
+      "label": "Fashion Plates",
+      "path": "packs/fashion-plates.db",
+      "entity": "JournalEntry",
+      "system": "cyberpunkred",
+      "module": "fit-for-the-future"
+    },
+  ],
+  "url": "https://github.com/hellogriffalo/fit-for-the-future",
+  "manifest": "https://raw.githubusercontent.com/hellogriffalo/fit-for-the-future/main/module.json",
+  "download": "https://github.com/hellogriffalo/fit-for-the-future/archive/main.zip" 
+}
